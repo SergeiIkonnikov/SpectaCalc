@@ -1,0 +1,11 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Icon">
+<path id="Rectangle 20" d="M5 4.625H15C16.3117 4.625 17.375 5.68832 17.375 7V13C17.375 14.3117 16.3117 15.375 15 15.375H11.2744C10.6022 15.375 9.96219 15.665 9.51953 16.1709L8.44434 17.4004C8.16016 17.7251 7.62526 17.5242 7.625 17.0928C7.625 16.1442 6.85576 15.375 5.90723 15.375H4.5C3.46447 15.375 2.625 14.5355 2.625 13.5V7C2.625 5.68832 3.68832 4.625 5 4.625Z" stroke="var(--stroke-0, white)" stroke-width="1.25"/>
+<path id="Rectangle 21" d="M6 12.5H10.5" stroke="var(--stroke-0, white)" stroke-width="1.25" stroke-linecap="round"/>
+<path id="Rectangle 22" d="M12.5 12.5H13" stroke="var(--stroke-0, white)" stroke-width="1.25" stroke-linecap="round"/>
+<path id="Rectangle 23" d="M6 10H8" stroke="var(--stroke-0, white)" stroke-width="1.25" stroke-linecap="round"/>
+<path id="Rectangle 25" d="M6 7.5H10" stroke="var(--stroke-0, white)" stroke-width="1.25" stroke-linecap="round"/>
+<path id="Rectangle 26" d="M12 7.5L14 7.5" stroke="var(--stroke-0, white)" stroke-width="1.25" stroke-linecap="round"/>
+<path id="Rectangle 24" d="M10 10H14" stroke="var(--stroke-0, white)" stroke-width="1.25" stroke-linecap="round"/>
+</g>
+</svg>

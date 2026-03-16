@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__claude_ai_Figma__get_design_context",
+      "mcp__claude_ai_Figma__whoami",
+      "mcp__claude_ai_Figma__get_screenshot",
+      "mcp__claude_ai_Figma__get_metadata",
+      "Bash(curl -sL \"https://www.figma.com/api/mcp/asset/9eb02014-a7e4-4e35-96c7-7e20ca47bed1\" -o logo.png)",
+      "Bash(curl -sL \"https://www.figma.com/api/mcp/asset/3c259375-a3cb-4415-a313-1f01b4ba41bf\" -o icon-upload.png)",
+      "Bash(curl -sL \"https://www.figma.com/api/mcp/asset/536636bc-a02c-4f08-942d-521ded2f6f1e\" -o icon-build.png)",
+      "Bash(curl -sL \"https://www.figma.com/api/mcp/asset/2e24fc7b-af64-4616-8344-2aa77a238c93\" -o icon-specifiers.png)",
+      "Bash(curl -sL \"https://www.figma.com/api/mcp/asset/63508999-4f61-475e-b5fc-11b9383855bf\" -o icon-ai.png)",
+      "Bash(curl -sL \"https://www.figma.com/api/mcp/asset/475c1943-e3c0-48b5-adbb-795936e222c2\" -o icon-custom.png)",
+      "Bash(curl -sL \"https://www.figma.com/api/mcp/asset/3abd2fc1-bd72-451e-ad2a-a2aabab036d1\" -o icon-calc.png)",
+      "Bash(curl -sL \"https://www.figma.com/api/mcp/asset/1d3457b6-ab62-4756-8a3d-64b52c39e28a\" -o icon-pdf.png)",
+      "Bash(curl -sL \"https://www.figma.com/api/mcp/asset/4cdb38e4-ea7b-40f9-a604-1da74c579629\" -o icon-sync.png)",
+      "Bash(curl -sL \"https://www.figma.com/api/mcp/asset/6f9bdef7-7fd1-49b0-9e76-214b6a86495f\" -o calc-screenshot.png)",
+      "Bash(curl -sL \"https://www.figma.com/api/mcp/asset/ba48b089-6588-4dcc-a64f-64d4d4f6ac84\" -o cta-image.png)",
+      "Bash(curl -sL \"https://www.figma.com/api/mcp/asset/e73e24b6-c201-4f6a-a8a9-8f3b8aaaf5c4\" -o badge-engineers.png)",
+      "Bash(ls -la *.png)",
+      "WebFetch(domain:www.figma.com)"
+    ]
+  }
+}

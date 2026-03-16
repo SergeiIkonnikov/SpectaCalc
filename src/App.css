@@ -1,0 +1,48 @@
+/* Hero animated gradient — transitions between distinct gradients */
+@property --hero-c1 {
+  syntax: '<color>';
+  initial-value: #0a1f6e;
+  inherits: false;
+}
+@property --hero-c2 {
+  syntax: '<color>';
+  initial-value: #1e4dc4;
+  inherits: false;
+}
+
+@keyframes heroShift {
+  0%   { --hero-c1: #0a1f6e; --hero-c2: #1e4dc4; }   /* blue */
+  30%  { --hero-c1: #0a1f6e; --hero-c2: #1e4dc4; }
+  50%  { --hero-c1: #2d1b69; --hero-c2: #7c3aed; }   /* purple */
+  80%  { --hero-c1: #2d1b69; --hero-c2: #7c3aed; }
+  100% { --hero-c1: #0a1f6e; --hero-c2: #1e4dc4; }   /* back to blue */
+}
+
+.hero-animated {
+  background: linear-gradient(135deg, var(--hero-c1) 0%, var(--hero-c2) 100%);
+  animation: heroShift 14s ease-in-out infinite;
+}
+
+/* Scroll-triggered fade-up */
+.fade-up {
+  opacity: 0;
+  transform: translateY(36px);
+  transition: opacity 0.75s cubic-bezier(0.22, 1, 0.36, 1),
+              transform 0.75s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.fade-up.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Stagger children inside an animated container */
+.fade-up.delay-1 { transition-delay: 0.1s; }
+.fade-up.delay-2 { transition-delay: 0.2s; }
+.fade-up.delay-3 { transition-delay: 0.3s; }
+
+/* Feature card cursor-tracked shadow */
+.feature-card {
+  box-shadow: var(--sh-x, -20px) var(--sh-y, 31px) 32px 0px rgba(213, 215, 224, 0.4);
+  transition: box-shadow 0.15s ease-out;
+}
